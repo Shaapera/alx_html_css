@@ -1,11 +1,13 @@
 body {
   display: flex;
   flex-direction: column;
+  background-color: rgb(222, 210, 210);
 }
 main {
   display: flex;
   flex-direction: row;
   flex: auto;
+  background-color: rgb(183, 187, 190);
 }
 article {
   flex: 2;
@@ -14,4 +16,8 @@ article {
 aside {
   flex: 1;
   overflow-y: auto;
+}
+header {
+  background-color: rgb(174, 188, 200);
+  border-radius: 8%;
 }
