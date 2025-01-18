@@ -1,186 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-    <title>Headphones</title>
-    <link rel="stylesheet" href="0-style.css" /> 
-    <link rel="stylesheet" href="holberton_school-icon/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="0-style.css" />
+    <title>Headphone</title>
+  </head>
   <body>
-    <section>
-      <div class="main_part">
-      <header>
-        <nav>
-          <div class="logo">
-          <img src="images/logo_headphones.png" alt="logo">
-          </div>
-          <div class="toggle"><input type="checkbox" id="hamburger">
-          <label for="hamburger"><span class="holberton_school-icon-menu"></span></label>
-          </div>
-          <ul class="menu">
-            <li><a href="#"></a>what we do</li>
-            <li><a href="#"></a>our results</li>
-            <li><a href="#"></a>contact us</li>
-          </ul>
-
-        </nav>
-      </header>
-      
-
-        
-        
-        <div class="text">
-        <div class="text1">
-          <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur</p>
-        </div>
-        <div class="text2">
-          <button class="btn">CALL TO ACTION</button>
-        </div>
-          <div class="text3">
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            impedit quis et laudantium, repellendus adipisci ipsum excepturi
-            suscipit dolorum dignissimos! Ducimus aliquam est rerum cupiditate
-            iure tenetur velit! Culpa, eaque.
-          </p>
-          </div>
-        </div>
+    <div class="main_part">
+    <header>
+      <div id="brand"><a href="/"><img width="130px" src="images/logo_headphones.png" alt=""></a></div>
+      <nav>
+        <ul>
+          <li><a href="/home">What we do</a></li>
+          <li><a href="/products">Our results</a></li>
+          <li><a href="/about">Contact us</a></li>
+        </ul>
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li><a href="/home">Home</a></li>
+          <li><a href="/products">Products</a></li>
+          <li><a href="/about">About</a></li>
+          <li id="login"><a href="/login">Login</a></li>
+          <li id="signup"><a href="/signup">Signup</a></li>
+        </ul>
       </div>
-    
-    </section>
-    <section>
-        <div class="what_we_do">
-     <div class="what_we">
-         <div class="what">
-        <h2>what we do...</h2>
+    </header>
+    <div class="nav1">
+      <h1>Lorem ipsum dolor sit amet consectetur</h1>
+      <p class="hmhfgng">est laborum. A deleniti asperiores fefefr efefe</p>
+      <input type="submit" class="btn_action" value="CALL TO ACTION" />
+      <p class="lfjfjfg">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+        sapiente, modi laudantium
+      </p>
+      <p>
+        id quas cumque suscipit mollitia eaque accusantium repellat tempora
+        distinctio
+      </p>
+      <p>est laborum. A deleniti asperiores optio eaque soluta.</p>
+      <p class="ffjjdgkd">est laborum. A deleniti asperiores optio eaque.</p>
     </div>
-    
-      <div class="whatp">
+    </div>
+    <!-- the icon side -->
+    <!--<div class="nav2">
+    <div class="nav22">
+      <h2>What we do</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-        delectus similique corporis eum, ullam assumenda rerum error nisi eius
-        culpa? Illum, nobis laborum id in incidunt repellat accusamus! Iusto,
-        architecto!
+        sapiente, modi laudantium
       </p>
+      <p>
+        id quas cumque suscipit mollitia eaque accusantium repellat tempora
+        distinctio
+      </p>
+      <p>est laborum. A deleniti asperiores optio eaque soluta.</p>
+      <p>est laborum. A deleniti asperiores optio eaque.</p>
+    </div>
+    <div class="wrapper-flex">
+      <div class="container">
+        <div class="banner-img"></div>
+        <img src="./images/sound.png" alt="profile image" class="profile-img" />
+        <p class="name">Lorem ipsum dolor sit amet</p>
+        <p class="description">consectatur adgesing est</p>
       </div>
-     </div>
-      <div class="icons">
-        <div class="sound">
-          <div class="soundimg"><img src="images/sound.PNG" alt="" /></div>
-         <div> <h3>Lorem ipsum</h3></div>
-          <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+      <div class="container">
+        <div class="banner-img"></div>
+        <img src="images/play.PNG" alt="profile image" class="profile-img" />
+        <p class="name">Lorem ipsum dolor sit amet</p>
+        <p class="description">consectatur adgesing est</p>
+      </div>
+      <div class="container">
+        <div class="banner-img"></div>
+        <img src="./images/music.PNG" alt="profile image" class="profile-img" />
+        <p class="name">Lorem ipsum dolor sit amet</p>
+        <p class="description">consectatur adgesing est</p>
+      </div>
+      <div class="container">
+        <div class="banner-img"></div>
+        <img
+          src="./images/hearing.png"
+          alt="profile image"
+          class="profile-img"
+        />
+        <p class="name">Lorem ipsum dolor sit amet</p>
+        <p class="description">consectatur adgesing est</p>
+      </div>
+    </div>
+    </div>
+    <div>
+      <div class="nav3">
+      <div class="nav3text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+          sapiente, modi laudantium
+        </p>
+        <p>
+          id quas cumque suscipit mollitia eaque accusantium repellat tempora
+          distinctio
+        </p>
+        <p>est laborum. A deleniti asperiores optio eaque soluta.</p>
+        <p>est laborum. A deleniti asperiores optio eaque.</p>
+      </div>
+      <div class="wrapper-flex">
+        <div class="container">
+          <div class="banner-img"></div>
+          <img
+            src="./images/pentagon.png"
+            alt="profile image"
+            class="profile-imgs"
+          />
         </div>
-        <div class="play">
-         <div><img src="images/play.PNG" alt="" /></div>
-         <div><h3>Lorem ipsum</h3></div>
-         <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+        <div class="container">
+          <div class="banner-img"></div>
+          <img
+            src="./images/pentagon.png"
+            alt="profile image"
+            class="profile-imgs"
+          />
         </div>
-        <div class="music">
-         <div> <img src="images/music.PNG" alt="" /></div>
-         <div> <h3>Lorem ipsum</h3></div>
-         <div> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+        <div class="container">
+          <div class="banner-img"></div>
+          <img
+            src="./images/pentagon.png"
+            alt="profile image"
+            class="profile-imgs"
+          />
         </div>
-         <div class="hearing">
-            <div><img src="images/hearing.PNG" alt="" /></div>
-         <div> <h3>Lorem ipsum</h3></div>
-         <div> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+        <div class="container">
+          <div class="banner-img"></div>
+          <img
+            src="./images/pentagon.png"
+            alt="profile image"
+            class="profile-imgs"
+          />
         </div>
+      </div>
+    </div>
+    <div class="f_container">
+      <form>
+        <h3 class="fsfsffsf">Contact us</h3>
+        <input type="text" id="fname" placeholder="Name" name="fname" /><br />
+        <input type="text" placeholder="Email" id="email" name="email" /><br />
+        <input
+          type="text"
+          placeholder="Your message"
+          id="ymsg"
+          name="ymsg"
+        /><br /><br />
+        <input type="submit" class="btn_action" value="CALL TO ACTION" />
+      </form>
+    </div>
     
+    
+  <footer class="footer">
+    <div class="topnav">
+  
+      <a href="#"
+        ><img width="150px" src="images/logo_headphones.png" alt="logo_footer"
+      /></a>
+      <div class="topnav-right">
+        <a href="#search"
+          ><img width="20px" src="./images/facebook.jpeg" alt=""
+        /></a>
+        <a href="#about"
+          ><img width="20px" src="./images/twitter.jpeg" alt=""
+        /></a>
+        <a href="#about"
+          ><img width="20px" src="./images/instagram.jpeg" alt=""
+        /></a>
       </div>
+      <div class="footer_copyright">
+        <p>&copy; Headphones 2025</p>
+      </div>
+  
     </div>
-    </section>
-   
-   
-    <section class="result_speak">
-    <div class="speaks">
-        <div class="speaks">
-            <h2>
-                Our results speak for themselves
-            </h2>
-            <div class="writeup">
-                <div class="linie1">Lorem ipsum dolor, sit  consectetur adipisicing elit.</div>
-                <div class="linie2">Let dicta modi facilis sit earum nihil voluptvero ex!</div>
-                <div class="linie3">Lorem i consectetur adipisicing elit. Distinctio ill.</div>
-                <div class="linie4">Soluta cum autem odio, itaque consectetur quasi harum. Iusto laudantium nemo</div>
-            </div>
-        </div>
-        <div class="cards">
-            <div class="pentagon">
-                <div class="pentag">
-                    <p>+2%</p>
-                    <p>Lorem ipsum doler</p>
-                </div>
-                <div class="pentag">
-                    <p>+2%</p>
-                    <p>Lorem ipsum doler</p>
-                </div>
-                <div class="pentag">
-                    <p>+2%</p>
-                    <p>Lorem ipsum doler</p>
-                </div>
-                <div class="pentag">
-                    <p>+2%</p>
-                    <p>Lorem ipsum doler</p>
-                </div>
-            </div>
-        </div>
+  </footer>
     </div>
-      <!----<section>
-        <div class="forms">
-        <form>
-            <h3 class="fsfsffsf">Contact us</h3>
-            <input type="text" id="fname" placeholder="Name" name="fname"/><br />
-            <input type="text" placeholder="Email" id="email" name="email"/><br />
-            <input type="text" placeholder="Your message" id="ymsg" name="ymsg"/><br /><br />
-            <input type="submit" class="btn_action" value="CALL TO ACTION" />
-            
-        </form>
-        </div>
-        <!--<div class="contact_us">
-      <h2>contact us</h2>
-      
-      <div class="forms">
-        <form action="">
-            <div class="forms1">
-                <label for="name">Name</label>
-                <input type="text"
-            </div>
-            <div class="forms1">
-                <label for="email">Email</label>
-               <input type="Email">
-            </div>
-            
-            <div class="forms1">
-                <label for="message">Your message</label>
-           <input type="text">
-
-            </div>
-        </form>
-      </div>
-      <div class="contactbnt">
-      <button class="btn">CALL TO ACTION</button>
-      </div>
-        </div>-->
-    <!--</section>
-    <section>
-        <footer>
-            <div class="container1">
-                <div class="imagefooter">
-            <img src="images/logo_headphones.png" alt="">
-        </div>
-            <div class="brands">
-                <a href="#"></a>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            </div>
-            </div>
-      <p>&copy;headphone 2020</p>
-        </footer>
-    </section>-->
+    
+  
+    <script src="forms.js"></script>-->
   </body>
 </html>

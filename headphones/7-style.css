@@ -105,7 +105,60 @@
     margin-bottom: 1rem;
     margin-left: 1rem;
   }
-  
+  @keyframes shaapera {
+    25% {background-color: #37474f;}
+    50% {background-color: #498afb;}
+    100% {background-color: #071629;}
+    
+  }
+  @keyframes bounceIn {
+    0% {
+        transform:translateY(-100%);
+        opacity: 0;
+    }
+    15% {
+      transform:translateY(0);
+      padding-bottom: 5px;
+    }
+    30% {
+      transform:translateY(-50%);
+    }
+    40% {
+          transform:translateY(0%);
+        padding-bottom: 6px;
+    }
+    50% {
+      transform:translateY(-30%);
+    }
+    
+    70% {
+        transform:translateY(0%);
+        padding-bottom: 7px;
+    }
+    80% {
+      transform:translateY(-15%);
+    }
+    90% {
+      transform:translateY(0%);
+      padding-bottom: 8px;
+    }
+    95% {
+      transform:translateY(-7%);
+    }
+    97% {
+      transform:translateY(0%);
+      padding-bottom: 9px;
+    }
+    99% {
+      transform:translateY(-3%);
+    }
+    100% {
+      transform:translateY(0);
+      padding-bottom: 9px;
+      opacity: 1;
+    }
+}
+    
   .banner-img {
     position: absolute;
     height: 10rem;
@@ -113,6 +166,15 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    animation-name: bounceIn;
+    animation-duration: 5s;
+    /*animation-duration: shaapera;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+    an*/
+
+
   }
   
   .profile-img {

@@ -132,6 +132,51 @@
     margin: 1rem 2rem;
     font-size: 0.9rem;
   }
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    padding-left: 60px;
+    padding-bottom: 50px;
+  }
+  .pentagon {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-left: 130px;
+    margin-top: 50px;
+  }
+  @keyframes animinate{
+    from {color: #ff6565;}
+    to { color: green;}
+  }
+  .pentag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    background-color: #ff6565;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    animation-name: animinate;
+    animation-duration: 5s;
+    animation-direction: reverse;
+    
+  }
+  .pentag p {
+    margin: 10px;
+    color: #ffffff;
+  }
+  .pentag p:first-child {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
   
   .btn {
     width: 100%;

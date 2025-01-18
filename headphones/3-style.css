@@ -1,339 +1,304 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /*width: 1000px;
-    width: 1400px;
-    height: 3006px;*/
-  }
-  @font-face {
-    font-family: myFont;
-    src: url(source-sans-pro/SIL\ Open\ Font\ License.txt);
-    src: url(source-sans-pro/SourceSansPro-Black.otf);
-    src: url(source-sans-pro/SourceSansPro-BlackIt.otf);
-    src: url(source-sans-pro/SourceSansPro-Bold.otf);
-    src: url(source-sans-pro/SourceSansPro-BoldIt.otf);
-    src: url(source-sans-pro/SourceSansPro-ExtraLight.otf);
-    src: url(source-sans-pro/SourceSansPro-ExtraLightIt.otf);
-    src: url(source-sans-pro/SourceSansPro-It.otf);
-    src: url(source-sans-pro/SourceSansPro-Light.otf);
-    src: url(source-sans-pro/SourceSansPro-LightIt.otf);
-    src: url(source-sans-pro/SourceSansPro-Regular.otf);
-    src: url(source-sans-pro/SourceSansPro-Semibold.otf);
-    src: url(source-sans-pro/SourceSansPro-SemiboldIt.otf);
-  }
-  
-  @font-face {
-    font-family: myFonts;
-    src: url(Spin-Cycle-OT/Blue\ Vinyl\ License.txt);
-    src: url(Spin-Cycle-OT/spincycle_3d_ot.otf);
-    src: url(Spin-Cycle-OT/spincycle_ot.otf);
-  }
-  
-  
-  nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1em;
-    width: 1000px;
-    height: 32px;
-    padding-left: 100px;
-  }
-  nav li{
-    text-decoration: none;
-    color: #ffffff;
-  }
-  .holberton_school-icon-m{
-    font-size: 50px;
-    display: none;
-  }
-  input[type="checkbox"]{
-    appearance: none;
-    -webkit-appearance: none;
-  
-  
-  }
-  label{
-    display: none;
-  }
-  ul{
-    list-style: none;
-    display: flex;
-    gap: 1em;
-  }
-  ul :hover{
-    opacity: 0.9;
-    color: #ff6565;
-  }
-  .main_part {
-    background-image: url(images/headphones_hero_1.jpg);
-    border-bottom-width: 2045.1px;
-    height: 800px;
-    width: 1400px;
-  }
-  .text {
-    color: #ffffff;
-    text-align: center;
-    width: 637px;
-    height: 313px;
-    margin-left: 300px;
-    margin-bottom: 200px;
-  }
-  .text1 {
-    padding-bottom: 40px;
-    padding-top: 280px;
-  }
-  .text1 h1{
-    width: 578px;
-    height: 40px;
-    font-family: "myFont";
-    font-weight: 32px;
-    font-style: bold;
-  }
-  .text1 p{
-    height: 20px;
-    text-align: center;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-  }
-  .text2 {
-    padding-bottom: 40px;
-    padding-bottom: 35px;
-  }
-  .text3 {
-    padding-top: 30px;
-    padding-bottom: 700px;
-    width: 637px;
-    height: 104px;
-    font-family: "myFont";
-    font-size: 16px;
-    font-style: regular;
-  }
-  
-  .btn {
-    background-color: #ff6565;
-    border-radius: 22px;
-    align-content: center;
-    color: #ffffff;
-    width: 162px;
-    height: 44px;
-    border-color: #ff6565;
-  }
-  .what_we_do {
-  text-align: center;
-  justify-content: center;
-  /* margin-left: 80px;*/
-  }
-.what_we {
-  width: 637px;
-  height: 184px;
-  margin-left: 400px;
-  text-align: center;
-  justify-content: center;
-}
-.what {
-  padding-top: 150px;
-  padding-bottom: 30px;
-  justify-content: center;
-}
-.whatp {
-  padding-bottom: 100px;
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
-}
-@keyframes animinate{
-  from {color: #ff6565;}
-  to { color: green;}
-  }
-.icons {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
-  padding-bottom: 150px;
-  padding-top: 150px;
-  justify-content: center;
-  width: 1002px;
-  height: 193px;
-  margin-left: 250px;
-  animation-name: animinate;
-  animation-duration: 5s;
-  animation-direction: reverse;
-  animation-direction:alternate-revers;
-}
-.sound {
-  width: 207px;
-  height: 180px;
-}
-@keyframes animinate{
-  from {color: #ff6565;}
-  to { color: green;}
-}
-.sound img {
-  width: 94.2px;
-  height: 65.96px;
-  animation-name: animinate;
-  animation-duration: 2s;
-  animation-direction:alternate-revers;}
-.sound h3 {
-  width: 207px;
-  height: 26px;
-  text-align: center;
-  color: #071629;
-}
-.sound p {
-  width: 207px;
-  height: 52px;
-  font-weight: regular;
-  color: #071629;
-}
-.play {
-  width: 207px;
-  height: 193px;
-}
-@keyframes animinate{
-  from {color: #ff6565;}
-  to { color: green;}}
-.play img {
-  width: 67.59px;
-  height: 76.8px;
-  animation-name: animinate;
-  animation-duration: 5s;
-  animation-direction: reverse;
-}
-.play h3{
-  width: 207px;
-  height: 26px;
-  color: #071629;
-}
-.play p{
-  width: 207px;
-  height: 52px;
-}
-.music {
-  width: 207px;
-  height: 179px;
-}
-.music img {
-  width: 51.56px;
-  height: 57.27px;
-}
-.music h3{
-  width: 207px;
-  height: 26px;
-}
- .music p{
-  width: 207px;
-  height: 52px;
-}
-.hearing {
-  width: 207px;
-  height: 180px;
-}
-.hearing img {
-  width: 61.43px;
-  height: 61.44px;
-}
-.hearing h3{
-  width: 207px;
-  height: 26px;
-}
-.hearing p{
-  width: 207px;
-  height: 52px;
-}
-.result_speak {
-    width: 100%;
-    height: 100vh;
-    background-image: url(images/headphones_hero_2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .speaks {
-    color: #ffffff;
-    position: relative;
-    align-items: center;
-    text-align: center;
-    margin-left: 20px;
-    padding-top: 50px;
-  }
-  .speaks h2 {
-    margin-top: 20px;
-  }
-  .writeup {
-    padding-top: 20px;
-  }
-  .cards {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1.5rem;
-    padding-left: 60px;
-  }
-  .pentagon {
-    display: flex;
-    align-items: center;
-    gap: 80px;
-    margin-left: 130px;
-    margin-top: 50px;
-  }
-  @keyframes animinate{
-    from {color: #ff6565;}
-    to { color: green;}
-  }
-  .pentag {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 150px;
-    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-    background-color: #ff6565;
-    font-size: 14px;
-    text-align: center;
-    position: relative;
-    animation-name: animinate;
-    animation-duration: 5s;
-    animation-direction: reverse;
-    
-  }
-  .pentag p {
-    margin: 10px;
-    color: #ffffff;
-  }
-  .pentag p:first-child {
-    font-size: 16px;
-    font-weight: bold;
-  }
-
-  .btn_action{
-    background-color: #ff6565;
+.btn_action {
+    background-color: #ff4500;
     border-radius: 20px;
     padding: 10px 20px;
     border: none;
     color: #ffffff;
     margin-left: 11px;
-    
   }
-  .forms{
+  .main_part{
+    background-image: url(images/headphones_hero_1.jpg);
+  
+  }
+  
+  .f_container {
     text-align: center;
+    margin-top: 2rem;
     padding-top: 50px;
-    padding-bottom: 50px;
-    
   }
-  
-  
-  .fsfsffsf{
+  .dgddggd {
+    text-align: left;
+  }
+  .fsfsffsf {
     margin-left: 20px;
   }
-  input[type="text"]{
+  input[type="text"] {
     width: 15%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
-    border-bottom: 2px solid #071629;
+    border-bottom: 2px solid #b2beb5;
+  }
+  
+  /* icon side style */
+  .nav1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+    color: #ffffff;
+  }
+  .nav2 {
+    
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+    
+  
+  }
+  .nav3{
+    background-image: url(images/headphones_hero_2.jpg);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+    
+  }
+  .nav3text{
+    padding-top: 250px;
+    color: #ffffff;
+  }
+  .nav-vvhvjhj {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+  :root {
+    --clr-primary: #651fff;
+    --clr-gray: #37474f;
+    --clr-gray-light: #b0bec5;
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 2rem;
+    color: var(--clr-gray);
+  }
+  
+  .wrapper-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+  
+  .container {
+    overflow: hidden;
+    background-color:none;
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+    width: 280px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+  }
+  
+  .banner-img {
+    position: absolute;
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .profile-img {
+    width: 4rem;
+    margin-top: 4.5rem;
+    margin-bottom: 1rem;
+    background-color: none;
+  }
+  .profile-imgs {
+    width: 12rem;
+    margin-top: 4.5rem;
+    margin-bottom: 1rem;
+    background-color: none;
+  }
+  
+  .description {
+    margin: 1rem 2rem;
+    font-size: 0.9rem;
+  }
+  
+  .btn {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    padding: 1rem;
+    background-color: var(--clr-primary);
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #071629;
+    margin-top: 4rem;
+    padding: 50px 30px 50px 30px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav-right {
+    float: right;
+    border-radius: 25px;
+  }
+  .footer_copyright{
+    text-align: center;
+    margin-top: 50px;
+    color: #ffffff;
+  }
+  .hmhfgng {
+    margin-bottom: 4rem;
+  }
+  .lfjfjfg {
+    margin-top: 4rem;
+  }
+  .nav1 .ffjjdgkd {
+    padding-bottom: 4rem;
+  }
+  .nav1 h1{
+    padding-top: 150px;
+  }
+  header a {
+    text-decoration: none;
+  }
+  
+  header {
+    padding: 50px 70px 50px 70px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+  }
+  
+  #brand {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #brand a {
+    color: #09c372;
+  }
+  
+  ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  ul a {
+    color: white;
+  }
+  
+  ul li {
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  ul li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  
+  #login,
+  #signup {
+    border-radius: 5px;
+    padding: 5px 8px;
+  }
+  
+  #login {
+    border: 1px solid #498afb;
+  }
+  
+  #signup {
+    border: 1px solid #ff3860;
+  }
+  
+  #signup a {
+    color: #ff3860;
+  }
+  
+  #login a {
+    color: #498afb;
+  }
+  
+  #hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  #hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+  
+  .open .bar2 {
+    opacity: 0;
+  }
+  
+  .open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+  }
+  
+  .open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+  }
+  
+  .mobile-menu li {
+    margin-bottom: 10px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    header nav {
+      display: none;
+    }
+  
+    #hamburger-icon {
+      display: block;
+    }
+  }
